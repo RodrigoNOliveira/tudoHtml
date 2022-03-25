@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #002c3f;
+}
+
+/*img {
+    width: 100px;
+    margin: 10px 5px 5px 12.5px;
+}*/
+.container{
+    border: 2px #007db3 solid ;
+    width: 110vh;
+    height: 90vh;
+    margin: 25vh auto;
+    padding: 0.5em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+    justify-content: space-around
+    
+
+}
+.item {
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20px;
+    margin: 0.5em;
+    width: 20%;
+    border: 1px #765a66 solid ;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 20%;
+
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+}
+
+.fundoImg {
+    background-color:#406496;
+    height: 120px;
+    margin: 10px;
+    
+}
+.fundoImg > img {
+    width: 100px;
+    margin: 10px 5px 5px 12.5px;
+    
+} 
+
+
+
+.caixaDtexto{
+    background-color: #87c3f7;
+    height: 15px;
+    margin: 10px;
+}    
+
+
+.um{
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20px;
+}
+.dois{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20px;
+}
+.tres{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20px;
+}
+.quatro{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20px;
+}

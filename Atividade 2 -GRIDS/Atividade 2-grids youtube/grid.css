@@ -1,0 +1,274 @@
+body {
+    background-color: #181818;
+}
+
+#site{
+    display: grid;
+    grid-template-areas: 
+    'menuHorz   menuHorz   menuHorz   menuHorz   menuHorz   menuHorz   menuHorz   menuHorz'
+    'player     player     player     player     player     indicados  indicados  indicados'
+    'player     player     player     player     player     miniatura  nomevideo  nomevideo'
+    'player     player     player     player     player     miniatura1  nomevideo1  nomevideo1'
+    'player     player     player     player     player     miniatura2  nomevideo2  nomevideo2'
+    'player     player     player     player     player     miniatura3  nomevideo3  nomevideo3'
+    'OpcoesVid  OpcoesVid  OpcoesVid  OpcoesVid  OpcoesVid  miniatura4  nomevideo4  nomevideo4'
+    'descricao  descricao  descricao  descricao  descricao  miniatura5  nomevideo5  nomevideo5'   
+    'coment     coment     coment     coment     coment     miniatura6  nomevideo6  nomevideo6'
+    'coment1    coment1    coment1    coment1    coment1    miniatura7  nomevideo7  nomevideo7'
+    'coment2    coment2    coment2    coment2    coment2    miniatura8  nomevideo8  nomevideo8'
+   
+
+    ;
+
+}
+
+#menuhori {
+    background-color: #202020;
+    padding: 20px;
+    text-align: center;
+    grid-area: menuHorz;
+    border: 3px solid #747474;
+    margin: 10px ;
+
+
+}
+
+#player{
+    background-color: #000000;
+    padding: 200px;    
+    text-align: center;
+    grid-area: player;
+    margin: 10px ;
+    
+}
+
+#descricao {
+    background-color:#181818 ;
+    padding: 40px;
+    text-align: center;
+    grid-area: descricao;
+    border: 3px solid #747474;
+    margin: 10px ;
+
+}
+
+#comentarios {
+    background-color:#181818 ;
+    padding: 40px;
+    text-align: center;
+    grid-area: coment;
+    border: 3px solid #747474;
+    margin: 10px ;
+    
+}
+#comentarios1 {
+    background-color:#181818 ;
+    padding: 40px;
+    text-align: center;
+    grid-area: coment1;
+    border: 3px solid #747474;
+    margin: 10px ;
+    
+}
+
+#comentarios2 {
+    background-color:#181818 ;
+    padding: 40px;
+    text-align: center;
+    grid-area: coment2;
+    border: 3px solid #747474;
+    margin: 10px ;
+    
+}
+
+#opcoesvideo{
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+    grid-area: OpcoesVid;
+    height: 30px;
+    border: 3px solid #747474;
+    margin: 10px ;
+
+
+}
+
+#indicados{
+    background-color: #181818 ;
+    padding: 10px;
+    text-align: center;
+    grid-area: indicados;
+    border: 3px solid #747474;
+    margin: 10px ;
+
+}
+#miniatura{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: miniatura;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+}
+#nomevideo{
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+    grid-area: nomevideo;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+}
+#miniatura1{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: miniatura1;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+}
+#nomevideo1{
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+    grid-area: nomevideo1;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+
+}
+#miniatura2{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: miniatura2;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+}
+#nomevideo2{
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+    grid-area: nomevideo2;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+
+}
+#miniatura3{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: miniatura3;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+}
+#nomevideo3{
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+    grid-area: nomevideo3;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+
+}
+#miniatura4{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: miniatura4;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+}
+#nomevideo4{
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+    grid-area: nomevideo4;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+
+}
+#miniatura5{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: miniatura5;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+}
+#nomevideo5{
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+    grid-area: nomevideo5;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+
+}
+#miniatura6{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: miniatura6;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+}
+#nomevideo6{
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+    grid-area: nomevideo6;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+
+}
+#miniatura7{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: miniatura7;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+}
+#nomevideo7{
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+    grid-area: nomevideo7;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+
+}
+#miniatura8{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: miniatura8;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+}
+#nomevideo8{
+    background-color: #181818;
+    padding: 20px;
+    text-align: center;
+    grid-area: nomevideo8;
+    border: 3px solid #747474;
+    height: 60px;
+    margin: 10px ;
+
+}

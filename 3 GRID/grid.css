@@ -1,0 +1,69 @@
+/* GRID BASEADO EM COLUNAS */
+#galeria {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5px;
+    row-gap: 10px;
+}
+
+.foto {
+    background-color: #cccccc;
+    border: 2px solid #9d9a9a;
+    text-align: center;
+    padding: 20px;
+}
+
+/* GRID BASEADO EM LAYOUT */
+#site {
+    display: grid;
+    grid-template-areas: 
+        'topo        topo        topo        topo'
+        'menu-horiz  menu-horiz  menu-horiz  menu-horiz'
+        'menu-vert   principal   principal   propaganda'
+        'rodape      rodape      rodape      rodape'
+    ;
+}
+
+#topo {
+    background-color: #786fa6;
+    padding: 20px;
+    text-align: center;
+    grid-area: topo;
+    height: 100px;
+}
+
+#menu-horiz {
+    background-color: #778beb;
+    padding: 20px;
+    text-align: center;
+    grid-area: menu-horiz;
+}
+
+#menu-vert {
+    background-color: #e77f67;
+    padding: 20px;
+    text-align: center;
+    grid-area: menu-vert;
+}
+
+#principal {
+    background-color: #f3a683;
+    padding: 20px;
+    text-align: center;
+    grid-area: principal;
+}
+
+#propaganda {
+    background-color: #cf6a87;
+    padding: 20px;
+    text-align: center;
+    grid-area: propaganda;
+}
+
+#rodape {
+    background-color: #596275;
+    padding: 20px;
+    text-align: center;
+    grid-area: rodape;
+    height: 40px;
+}

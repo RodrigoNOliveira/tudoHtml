@@ -1,0 +1,25 @@
+body {
+    
+}
+
+/* BORDER, MARGIN, PADDING */
+
+div {
+    background-color: #ffcc00;
+    border: 3px solid #ff0000; /* Espessura, Tipo, Cor */
+    margin: 10px; /* Espaço entre o elemento e os OUTROS elementos ao redor dele */
+    padding: 20px; /* Espaço entre o elemento e o SEU CONTEÚDO */
+}
+
+span {
+    background-color: #ff9900;
+}
+
+#meio {
+    background-color: #cccccc;
+    /*margin: 20px;*/ /* Todos os lados */
+    /*margin: 20px 40px;*/  /* Verticais (Cima e Baixo) | Horizontais (Esq e Dir) */
+    margin: 10px 20px 30px 40px; /* Cima Direita Baixo Esquerda */
+
+    padding: 10px 20px 30px 40px;
+}
